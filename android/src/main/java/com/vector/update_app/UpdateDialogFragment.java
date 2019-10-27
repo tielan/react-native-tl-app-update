@@ -30,6 +30,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.fengyu.zw.update_app.R;
 import com.vector.update_app.listener.ExceptionHandler;
 import com.vector.update_app.listener.ExceptionHandlerHelper;
 import com.vector.update_app.listener.IUpdateDialogFragmentListener;
@@ -40,7 +41,6 @@ import com.vector.update_app.utils.DrawableUtil;
 import com.vector.update_app.view.NumberProgressBar;
 
 import java.io.File;
-import com.chinacreator.zw.update_app.R;
 /**
  * Created by Vector
  * on 2017/7/19 0019.

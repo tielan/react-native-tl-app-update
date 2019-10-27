@@ -11,7 +11,7 @@ import android.os.Parcelable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.chinacreator.zw.update_app.R;
+import com.fengyu.zw.update_app.R;
 
 
 /**

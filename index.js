@@ -10,7 +10,9 @@ export default class UpdateManager {
         }
     }
     //手动检测更新
-    static manual() {
-
+    static manual({ url }, callback) {
+        if (url) {
+            UpdateManagerModule.manual({ url }, callback);
+        }
     }
 }

@@ -15,12 +15,12 @@ import android.support.v4.app.NotificationCompat;
 import android.text.TextUtils;
 import android.widget.Toast;
 
+import com.fengyu.zw.update_app.R;
 import com.vector.update_app.HttpManager;
 import com.vector.update_app.UpdateAppBean;
 import com.vector.update_app.utils.AppUpdateUtils;
 
 import java.io.File;
-import com.chinacreator.zw.update_app.R;
 
 /**
  * 后台下载
