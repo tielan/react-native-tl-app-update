@@ -14,7 +14,7 @@ import UpdateManager from 'react-native-tl-app-update';
 export default class App extends Component {
 
   componentDidMount() {
-    UpdateManager.check({ url: "https://tielan.gitee.io/mock/update" });
+    UpdateManager.check({ url: "http://www.shanchuanzixun.vip/sczx/app/jsp/jk/selectAppglInfo.jsp" });
   }
 
   render() {

@@ -25,7 +25,8 @@ public class ZWUpdateCallback extends UpdateCallback {
         UpdateAppBean updateAppBean = new UpdateAppBean();
         try {
             try {
-                JSONObject jsonObject = new JSONObject(json);
+                JSONObject obj = new JSONObject(json);
+                JSONObject jsonObject = obj.optJSONObject("data");
                 int version_num = jsonObject.optInt("version_num");
                 String update = "";
                 if (versionCode < version_num) {
